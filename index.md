@@ -1,1 +1,5 @@
-**Hello, there.**
+---
+title: The Index Page
+---
+
+#Hello, there.#
