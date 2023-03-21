@@ -1,3 +1,3 @@
-# ThinkPads smell like victory
+This is a line of text.
 
-![](http://imkogo.s3.amazonaws.com/foobar.jpg)
+And so is this.
