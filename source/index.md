@@ -1,5 +1,5 @@
 ---
-title: The Index Page
+title: Home
 ---
 
-###  Hello, there.
+###  Welcome to Kogswell
