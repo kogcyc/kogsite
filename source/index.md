@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Kogswell Cycles
 ---
 
-###  Welcome to Kogswell
+## Welcome to Kogswell Cycles
