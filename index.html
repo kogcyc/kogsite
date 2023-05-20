@@ -17,6 +17,29 @@
     
     <script src="index.js"></script>
 
+<script>
+const url = 'https://kogsite.pages.dev/data.data';
+
+fetch(url)
+  .then(response => {
+    // Check if the request was successful (status code 200)
+    if (response.ok) {
+      return response.text();
+    } else {
+      throw new Error(`Request failed with status code ${response.status}`);
+    }
+  })
+  .then(responseText => {
+    console.log('GET request was successful.');
+    console.log('Response body:');
+    console.log(responseText);
+  })
+  .catch(error => {
+    console.error('An error occurred:', error);
+  });
+
+</script>
+
   </body>
 
 </html>
