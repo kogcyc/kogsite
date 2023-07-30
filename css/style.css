@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700&family=Supermercado+One&display=swap');
-Marvin Bike Cyclable Annecy
+
 /* Styling for the navigation container */
 #nav-container {
   border: 1px solid #ddd;
@@ -28,9 +28,9 @@ Marvin Bike Cyclable Annecy
 
 /* Styling for each navigation menu item */
 .nav-menu-selection {
-  font-family: sans-serif;
+  font-family: times;
   font-weight: 400;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   cursor: pointer;
 }
 
