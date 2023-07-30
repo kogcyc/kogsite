@@ -29,8 +29,8 @@ Marvin Bike Cyclable Annecy
 /* Styling for each navigation menu item */
 .nav-menu-selection {
   font-family: sans-serif;
-  font-weight: 100;
-  letter-spacing: 1px;
+  font-weight: 400;
+  letter-spacing: 2px;
   cursor: pointer;
 }
 
