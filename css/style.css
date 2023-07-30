@@ -1,15 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700&family=Supermercado+One&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
-
-body {
-  background-color: #fd9;
-  color: #000;
-  font-family: monospace;
-  font-size: 1.9em;
-  font-weight: 900;
+/* Styling for the navigation container */
+#nav-container {
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #fff;
 }
 
-.supermercado {
-  font-family: 'Supermercado One';
-  letter-spacing: -2px;
+/* Styling for the left-justified CSS grid */
+#nav-menu-grid {
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  gap: 10px;
+  align-items: center;
+}
+
+/* Styling for the navigation logo */
+.nav-menu-logo {
+  font-family: Supermercado One, sans-serif;
+  font-weight: 900;
+  font-size: 2.4em;
+  letter-spacing: -3px;
+  margin: -1px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+/* Styling for each navigation menu item */
+.nav-menu-selection {
+  font-family: sans-serif;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+/* Media query for screens with width less than 621px */
+@media only screen and (max-width: 620px) {
+  #nav-menu-grid {
+    grid-template-columns: repeat(3, auto);
+  }
 }
