@@ -3,6 +3,7 @@
 /* Styling for the navigation container */
 #nav-container {
   border: 1px solid #ddd;
+  border-radius: 3px;
   padding: 10px;
   background-color: #fff;
 }
