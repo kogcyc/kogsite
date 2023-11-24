@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>kogswell</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+  </head>
+
+  <body>
+
+  <!-- Inner div with id 'nav-container' -->
+  <div id="nav-container">
+    <!-- Left-justified CSS grid with id 'nav-menu-grid' -->
+    <div id="nav-menu-grid">
+      <!-- 6 columns in the grid -->
+      <div class="nav-menu-logo">kogswell</div>
+      <div class="nav-menu-selection">GOODS</div>
+      <div class="nav-menu-selection">APPS</div>
+      <div class="nav-menu-selection">MUSINGS</div>
+      <div class="nav-menu-selection">ABOUT</div>
+      <div class="nav-menu-selection">🔍</div>
+    </div
+
+  </div>
+
+    <br/></br/
+      
+    <div><a href="https://kogcyc.github.io/kogapps/svgFiddle/index.html">
+      <span style="font-family: sans-serif; font-weight: 900; text-decoration: none;">svgFiddle</span>
+    </a></div>
+
+      
+    <script src="index.js"></script>
+
+    <script>
+      const url = 'https://kogsite.pages.dev/data.data';
+
+      fetch(url)
+        .then(response => {
+          // Check if the request was successful (status code 200)
+          if (response.ok) {
+            return response.text();
+          } else {
+            throw new Error(`Request failed with status code ${response.status}`);
+          }
+        })
+        .then(responseText => {
+          console.log('GET request was successful.');
+          console.log('Response body:');
+          console.log(responseText);
+        })
+        .catch(error => {
+          console.error('An error occurred:', error);
+        });
+
+    </script>
+
+  </body>
+
+</html>
