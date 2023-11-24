@@ -6,10 +6,10 @@
    version="1.1"
    id="svg341"
    sodipodi:docname="frame0.svg"
-   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
-   inkscape:export-filename="/home/matt/Desktop/MyBike.png"
+   inkscape:export-filename="/home/matt/kogsite/assets/pngs/frame0.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -257,6 +257,13 @@
       </clipPath>
     </defs>
   </defs>
+  <rect
+     style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:5.05045;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1;paint-order:stroke markers fill"
+     id="rect1280"
+     width="1689"
+     height="1041"
+     x="0"
+     y="0" />
   <path
      d="M 748.583,252.6696 545.4846,288.0482 359.393,326.91 l -9.8517,1.7161 2.9174,16.7478 9.8516,-1.7161 188.2711,-26.3502 203.0958,-35.3782 v 0 c -5.6157,-3.5414 -9.3463,-9.7997 -9.3463,-16.9294 0,-4.652 1.5882,-8.933 4.2521,-12.3304 z"
      style="fill:#ffffff;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:2;stroke-opacity:1;text-rendering:optimizeLegibility"
