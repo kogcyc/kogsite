@@ -1,36 +1,20 @@
 body {
   background-color: #fff;
+  margin: 0;
 }
 
-.wrapper {
-  display: grid;
-  grid-template-columns: repeat(97);
-  gap: 0px;
-  grid-auto-rows: minmax(20px, auto);
+.nav_wrapper {
+  padding: 20px 20px 0px 20px;
+  background-color: #FACE60;
 }
 
 .one {
-  grid-column: 1;
-  grid-row: 1;
-  background-color: #ed8;
+  display: inline;
 }
 
 .two {
-  grid-column: 2 / 97;
-  grid-row: 1;
-  background-color: #ed8;
-}
-
-.three {
-  grid-column: 97;
-  grid-row: 1;
-  background-color: #ed8;
-}
-
-.four {
-  grid-column: 4 / 97;
-  grid-row: 1;
-  background-color: #ed8;
+  display: inline;
+  float: right;
 }
 
 .nav {
