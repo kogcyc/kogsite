@@ -45,7 +45,8 @@ h1,h2,h3,h4 {
 
 
 
-.menu_item {
+.menu_item:link,.menu_item:visited,.phone_number,.sms_number{
 	font-family: sans-serif;
 	font-weight: 900;
+	color: #00c;
 }
