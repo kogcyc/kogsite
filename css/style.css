@@ -4,23 +4,48 @@ body {
   margin: 0;
 }
 
-.nav_wrapper {
+
+
+#nav_wrapper {
   padding: 20px 20px 0px 20px;
   background-color: #FAD370;
 }
 
-.one {
+#nav_logo {
   display: inline;
 }
 
-.two {
+#nav_hamburger {
   display: inline;
   float: right;
 }
 
-.nav {
+.nav_text {
   padding: 12px 0px 12px 12px;
   font-family: sans-serif;
   font-weight: 900;
   color: #000;
+}
+
+
+
+.article {
+  padding: 10px 20px 1px 20px;
+  background-color: #dddddd;
+  font-family: Times Roman;
+}
+
+h1,h2,h3,h4 {
+  font-family: sans-serif;
+}
+
+
+
+
+
+
+
+.menu_item {
+	font-family: sans-serif;
+	font-weight: 900;
 }
