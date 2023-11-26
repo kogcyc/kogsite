@@ -64,3 +64,13 @@ h1,h2,h3,h4 {
   font-family: Times Roman;
 }
 
+.article img {
+	max-width: 100%;
+	height: auto;
+}
+
+@media (min-width: 600px) {
+	.article img {
+		width: 600px;
+	}
+}
