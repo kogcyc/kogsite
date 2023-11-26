@@ -4,6 +4,11 @@ body {
   margin: 0;
 }
 
+h1,h2,h3,h4 {
+  font-family: sans-serif;
+}
+
+
 
 
 #nav_wrapper {
@@ -35,9 +40,7 @@ body {
   font-family: Times Roman;
 }
 
-h1,h2,h3,h4 {
-  font-family: sans-serif;
-}
+
 
 
 
@@ -49,4 +52,14 @@ h1,h2,h3,h4 {
 	font-family: sans-serif;
 	font-weight: 900;
 	color: #00c;
+}
+
+
+
+
+
+.article {
+  padding: 10px 20px 1px 20px;
+  background-color: #dddddd;
+  font-family: Times Roman;
 }
