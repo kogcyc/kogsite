@@ -1,7 +1,8 @@
 
 body {
   background-color: #fff;
-  margin: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 h1,h2,h3,h4 {
@@ -59,7 +60,7 @@ h1,h2,h3,h4 {
 
 
 .article {
-  padding: 10px 20px 1px 20px;
+  padding: 10px 20px 20px 20px;
   background-color: #dddddd;
   font-family: Times Roman;
 }
@@ -77,22 +78,40 @@ h1,h2,h3,h4 {
 
 
 
+
+
+
+
+
 #footer_wrapper {
-  padding: 10px 20px 1px 20px;
+  padding: 10px 20px 10px 20px;
   background-color: #111;
-
-}
-
-#footer_cards {
-  background-color: #111;
-  max-width: 1200px;
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-}
-
-.footer_card {
-  color: #fff;
+  color: #ddd;
   font-family: sans-serif;
-  font-size: 0.8em;
 }
+
+    .footer-grid-container {
+      display: grid;
+      grid-template-columns: repeat(3, 350px); /* Three columns, each 300px wide */
+      gap: 10px; /* Adjust the gap between columns */
+    }
+
+    .footer-grid-item {
+      border: 0px solid #ccc;
+      padding: 0px;
+      text-align: left;
+    }
+
+    @media (max-width:1120px) {
+      /* Two rows for screens between 360px and 759px */
+      .footer-grid-container {
+        grid-template-columns: repeat(2, 1fr); /* Two columns */
+      }
+    }
+
+    @media (max-width: 760px) {
+      /* Three rows for screens below 360px */
+      .footer-grid-container {
+        grid-template-columns: 1fr; /* One column */
+      }
+    }
