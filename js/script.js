@@ -7,6 +7,12 @@ document.addEventListener('DOMContentLoaded', function() {
     // Navigate to "index.html" when the logo is clicked
     window.location.href = 'index.html';
   });
+
+  // Add event listener to the home image
+  document.getElementById('homeBtn').addEventListener('click', function() {
+    // Navigate to "index.html" when the home is clicked
+    window.location.href = 'index.html';
+  });
   
   // Add event listener to the hamburger image
   document.getElementById('hamburgerBtn').addEventListener('click', function() {
