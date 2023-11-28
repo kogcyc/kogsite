@@ -23,8 +23,8 @@
      inkscape:pagecheckerboard="0"
      showgrid="true"
      inkscape:zoom="32"
-     inkscape:cx="34.406411"
-     inkscape:cy="15.849047"
+     inkscape:cx="34.1875"
+     inkscape:cy="15.859375"
      inkscape:window-width="1440"
      inkscape:window-height="838"
      inkscape:window-x="0"
@@ -40,7 +40,7 @@
   <defs
      id="defs26070" />
   <path
-     style="fill:#000000;fill-opacity:0.99738383;stroke:none;stroke-width:0.313872px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     style="fill:#111111;fill-opacity:1;stroke:none;stroke-width:0.313872px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
      d="m 7.4083335,4.3656251 0,2.1166667 1.4552084,0 V 5.1593751 h 1.3229171 v 1.3229167 l 1.455208,0 0,-2.1166667 H 12.7 l -1.058333,-0.79375 0,-1.5875 h -0.926042 v 0.9260416 l -1.1906248,-0.9260416 -3.175,2.38125"
      id="path1865"
      sodipodi:nodetypes="ccccccccccccccc" />
