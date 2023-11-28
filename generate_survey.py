@@ -7,19 +7,20 @@ json_data = '''
 {
   "groups": [
     {
-      "name": "q1",
+      "name": "Role",
       "options": [
-        {"value": "option1", "label": "Option 1"},
-        {"value": "option2", "label": "Option 2"},
-        {"value": "option3", "label": "Option 3"}
+        {"value": "commuting", "label": "Commuting"},
+        {"value": "road", "label": "Road"},
+        {"value": "gravel", "label": "Gravel"}
       ]
     },
     {
-      "name": "q2",
+      "name": "Material",
       "options": [
-        {"value": "option1", "label": "Option 1"},
-        {"value": "option2", "label": "Option 2"},
-        {"value": "option3", "label": "Option 3"}
+        {"value": "steel-tig", "label": "Steel, TIG'd"},
+        {"value": "steel-fillet", "label": "Steel, fillet brazed"},
+        {"value": "steel-lugged", "label": "Steel, lugged"},
+        {"value": "aluminum", "label": "Aluminum, TIG'd"}
       ]
     }
   ]

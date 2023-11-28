@@ -1,3 +1,4 @@
+
 <!-- templates/index.html -->
 <!DOCTYPE html>
 <html lang="en">
@@ -9,22 +10,55 @@
 <body>
 
 <form action="http://localhost:5000" method="post" id="myForm">
-  <label>
-    <input type="radio" name="options" value="option1">
-    Option 1
-  </label>
 
-  <label>
-    <input type="radio" name="options" value="option2">
-    Option 2
-  </label>
-
-  <label>
-    <input type="radio" name="options" value="option3">
-    Option 3
-  </label>
-
+  
+    <fieldset>
+      <legend>Role</legend>
+      
+        <label>
+          <input type="radio" name="Role" value="commuting">
+          Commuting
+        </label><br>
+      
+        <label>
+          <input type="radio" name="Role" value="road">
+          Road
+        </label><br>
+      
+        <label>
+          <input type="radio" name="Role" value="gravel">
+          Gravel
+        </label><br>
+      
+    </fieldset>
+  
+    <fieldset>
+      <legend>Material</legend>
+      
+        <label>
+          <input type="radio" name="Material" value="steel-tig">
+          Steel, TIG'd
+        </label><br>
+      
+        <label>
+          <input type="radio" name="Material" value="steel-fillet">
+          Steel, fillet brazed
+        </label><br>
+      
+        <label>
+          <input type="radio" name="Material" value="steel-lugged">
+          Steel, lugged
+        </label><br>
+      
+        <label>
+          <input type="radio" name="Material" value="aluminum">
+          Aluminum, TIG'd
+        </label><br>
+      
+    </fieldset>
+  
   <input type="submit" value="Submit">
+
 </form>
 
 </body>
