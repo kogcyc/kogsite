@@ -27,8 +27,6 @@ json_data = '''
 }
 '''
 
-
-
 # Load JSON data
 data = json.loads(json_data)
 
