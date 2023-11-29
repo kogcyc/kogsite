@@ -22,9 +22,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      showgrid="true"
-     inkscape:zoom="22.627417"
-     inkscape:cx="31.687223"
-     inkscape:cy="20.837553"
+     inkscape:zoom="5.6568543"
+     inkscape:cx="26.339728"
+     inkscape:cy="38.625708"
      inkscape:window-width="1440"
      inkscape:window-height="838"
      inkscape:window-x="0"
@@ -40,8 +40,8 @@
   <defs
      id="defs26070" />
   <path
-     style="fill:#333333;fill-opacity:1;stroke:none;stroke-width:0.327426px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-     d="M 7.4083335,4.5757354 V 6.8791668 H 8.8635419 V 5.4395222 h 1.3229171 v 1.4396446 h 1.455208 V 4.5757354 H 12.7 L 11.641667,3.7119487 V 1.9843751 h -0.926042 v 1.0077511 l -1.1906248,-1.0077511 -3.175,2.5913603"
+     style="fill:#2a2a2a;fill-opacity:0.99657065;stroke:none;stroke-width:0.353974px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     d="M 6.9792794,4.7858457 V 7.2760418 H 8.5524777 V 5.7196693 H 9.9826584 V 7.2760418 H 11.555856 V 4.7858457 H 12.7 L 11.555856,3.8520223 V 1.9843751 H 10.55473 V 3.0738358 L 9.2675678,1.9843751 5.8351353,4.7858457"
      id="path1865"
      sodipodi:nodetypes="ccccccccccccccc" />
 </svg>
