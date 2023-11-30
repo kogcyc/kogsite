@@ -6,3 +6,14 @@ GRANT ALL PRIVILEGES ON database_name.* TO 'anyone'@'%';
 FLUSH PRIVILEGES;
 
 sudo mysql -u matt -p
+
+sudo mousepad ./mysql/mysql.conf.d/mysqld.cnf
+        bind-address: change its value to the server's IP address or 0.0.0.0
+
+sudo service mysql restart
+
+mysql -u matt -p
+
+sudo ufw allow 3306
+
+mysql -u anyone -h 10.0.0.26 -p
